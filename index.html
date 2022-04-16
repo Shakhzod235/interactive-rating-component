@@ -7,46 +7,47 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Interactive rating component</title>
 </head>
 <body>
   <!-- Rating state start -->
-  <h2 class="heading">How did we do?</h2>
-
-  <p class="caption">Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!</p>
-
-  <ul>
-    <li>
-      <a href="#">1</a>
-    </li>
-    <li>
-      <a href="#">2</a>
-    </li>
-    <li>
-      <a href="#">3</a>
-    </li>
-    <li>
-      <a href="#">4</a>
-    </li>
-    <li>
-      <a href="#">5</a>
-    </li>
-  </ul>
-
-  Submit
+  <div class="container flex">
+    <div class="review">
+      <h2 class="review__heading">How did we do?</h2>
+      <p class="review__caption">Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!</p>
+      <ul class="rating review__rating">
+        <li class="rating__item">
+          <a href="#" class="rating__link">1</a>
+        </li>
+        <li class="rating__item">
+          <a href="#" class="rating__link">2</a>
+        </li>
+        <li class="rating__item">
+          <a href="#" class="rating__link">3</a>
+        </li>
+        <li class="rating__item">
+          <a href="#" class="rating__link">4</a>
+        </li>
+        <li class="rating__item">
+          <a href="#" class="rating__link">5</a>
+        </li>
+      </ul>
+      <button type="review__submit">Submit</button>
+    </div>
+  </div>
 
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
 
-  You selected <!-- Add rating here --> out of 5
+  <!-- You selected  Add rating here  out of 5
 
   Thank you!
 
   We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
+  don’t hesitate to get in touch! -->
 
   <!-- Thank you state end -->
   <div class="attribution">
