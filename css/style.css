@@ -16,7 +16,7 @@ body {
     background-color: rgb(30, 37, 47);
     border-radius: 30px;
     padding: 32px 40px 32px 32px;
-    width: 400px;
+    width: 345px;
     margin: 195px 0 190px 0;
 }
 .review__icon {
@@ -50,8 +50,18 @@ body {
     color: rgb(149, 158, 172);
     background-color: rgb(38, 47, 56);
     border: none;
+    transition: 0.5s all;
+    cursor: pointer;
 }
-.review__btn_submit {
+.rating__btn:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(251, 116, 19);
+}
+.rating__btn:focus {
+    background-color: rgb(149, 158, 172);
+    color: rgb(255, 255, 255);
+}
+.review__btn {
     background-color: rgb(251, 116, 19);
     border: none;
     width: 100%;
@@ -62,6 +72,12 @@ body {
     height: 45px;
     font-family: 'Overpass', serif;
     font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.review__btn:hover {
+    color: rgb(251, 116, 19);
+    background-color: rgb(255, 255, 255);
 }
 .attribution {
     font-size: 11px;
