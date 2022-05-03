@@ -1,0 +1,12 @@
+@media (min-width: 375px) and (max-width: 767px) {
+    .review {
+        width: 330px;
+        margin: 155px 15px 155px 15px;
+        padding: 25px 25px 30px 25px;
+        border-radius: 20px;
+    }
+    .rating__btn {
+        width: 43px;
+        height: 43px;
+    }
+}
