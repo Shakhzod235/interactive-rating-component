@@ -88,3 +88,42 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+.thank-you {
+    display: none;
+    background-color: rgb(30, 37, 47);
+    border-radius: 25px;
+    padding: 45px 40px 45px 32px;
+    width: 345px;
+    margin: 195px 0 190px 0;
+}
+.active {
+    display: block;
+}
+.disable {
+    display: none;
+}
+.thank-you__img {
+    display: block;
+    margin: 0 auto;
+}
+.thank-you__rate {
+    color: rgb(208, 126, 66);
+    background-color: rgb(38, 47, 56);
+    margin: 32px auto 0 auto;
+    text-align: center;
+    padding: 10px 20px;
+    width: 195px;
+    border-radius: 25px;
+}
+.thank-you__heading {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 32px 0 12px 0;
+    font-size: 28px;
+}
+.thank-you__caption {
+    text-align: center;
+    color: rgb(149, 158, 172);
+    margin: 0;
+    width: 340px;
+}
